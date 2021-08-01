@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    border-bottom: 1px solid rgb(196, 195, 195);
+}
+.header_segment {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15px;
+    overflow: hidden; 
+}
+.logo{
+    width: 10%;
+    float: left;
+    
+}
+nav{
+    width: 50%;
+    float: right;
+    overflow: hidden;
+}
+nav ul{
+    list-style: none;
+    overflow: hidden;
+    float: right;
+
+}
+nav ul li{
+    float: left;
+    margin-left: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    color: black;
+}
+.content_section{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+.content_section h1{
+    color: #0C2354;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 10px;
+}
+.content_section h2{
+    color:#0C66FF;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 10px;
+    
+}
+.content_section p{
+    text-align: center;
+    color: #0C2354;
+    margin: 20px 0;
+
+    
+}
+.img{
+    text-align: center;
+
+
+}
+.img img{
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.project_content{
+    overflow: hidden;
+
+}
+.left_content{
+    width: 48%;
+    float: left;
+
+}
+.left_content h1{
+    color: rgb(201, 69, 69);
+    text-align: right;
+    
+    
+}
+.left_content p{
+    text-align: right;
+    color: #0C2354;
+    
+
+
+}
+.right_content{
+    width: 48%;
+    float: right;
+
+}
+.right_content h1{
+    text-align: left;
+
+}
+.service{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    overflow: hidden;
+
+}
+.service_one{
+    width: 30%;
+    background-color: #FDEBED;
+    float:left;
+    text-align: center;
+
+}
+.service_one img{
+    width: 50%;
+    padding-top: 10%;
+    
+    
+}
+.service_one h2{
+    text-align: left;
+    padding: 4%;
+    
+}
+.service_one p{
+    text-align: left;
+    padding: 4%;
+    
+}
+.service_two{
+    width: 30%;
+    background-color: #EBF9F4;
+    float: left;
+    margin-left: 5%;
+    text-align: center;
+
+}
+.service_two img{
+    width: 43%;
+    padding-top: 10%;
+
+}
+.service_two h2{
+    text-align: left;
+    padding: 4%;
+    
+
+}
+.service_two p{
+    text-align: left;
+    padding: 4%;
+
+}
+.service_three{
+    width: 30%;
+    background-color: #FFF7E8;
+    float: right;
+    text-align: center;
+
+}
+.service_three img{
+    width: 42%;
+    padding-top: 10%;
+
+}
+.service_three h2{
+    text-align: left;
+    padding: 4%;
+
+}
+.service_three p{
+    text-align: left;
+    padding: 4%;
+}
+footer{
+    background-color: #0C66FF;
+    text-align: center;
+    padding: 2% 0 ;
+
+}
+footer p{
+     color:#d1ddd9;
+     font-size: 18px;
+}
+footer p span{
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+
+}
